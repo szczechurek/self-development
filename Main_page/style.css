@@ -68,12 +68,30 @@ li:hover {
   place-items: center;
 }
 
-/* #button {
-  height: 2.5rem;
-  width: 7rem;
+.search-container {
+  background-color: beige;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+  padding-top: 1rem;
+}
+
+.button {
+  height: 2rem;
+  width: 4rem;
+  cursor: pointer;
   background-color: antiquewhite;
   border-radius: 0.25rem;
   border-width: 0.1rem;
   border-style: solid;
   border-color: black;
-} */
+}
+
+.search-bar {
+  height: 2rem;
+  border-radius: 0.25rem;
+  border-width: 0.1rem;
+  border-style: solid;
+  border-color: black;
+}
