@@ -32,6 +32,16 @@
   border-color: black;
   cursor: pointer;
   font-size: 20px;
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.05),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.45),
+    inset 0 -1px 0 0 rgba(255, 255, 255, 0.15),
+    0 1px 0 0 rgba(255, 255, 255, 0.15);
+
+  text-shadow: 0 1px rgba(255, 255, 255, 0.4);
+}
+
+.button:hover {
+  background-color: #eaeaea;
 }
 
 .operator {
@@ -46,6 +56,10 @@
   font-size: 20px;
 }
 
+.operator:hover {
+  background-color: rgb(248, 190, 115);
+}
+
 .equal-sign {
   background-color: rgb(8, 154, 239);
   height: 50px;
@@ -56,6 +70,10 @@
   border-color: black;
   cursor: pointer;
   font-size: 20px;
+}
+
+.equal-sign:hover {
+  background-color: rgb(0, 179, 255);
 }
 
 .clear {
@@ -71,9 +89,13 @@
   margin-left: 2px;
 }
 
+.clear:hover {
+  background-color: rgb(250, 58, 58);
+}
+
 .input {
   background-color: rgb(172, 168, 168);
-  width: 250px;
+  width: 242px;
   height: 50px;
   border-radius: 6px;
   border-color: black;
@@ -81,6 +103,10 @@
   border-style: solid;
   margin: 8px 2px 2px 8px;
   font-size: 30px;
+}
+
+.input:hover {
+  background-color: rgb(203, 200, 200);
 }
 
 .keys {
