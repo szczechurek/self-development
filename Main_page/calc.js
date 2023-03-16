@@ -1,3 +1,9 @@
+/**
+ * TODO:
+ * 1. Refactor old functions to ES6 ones (function as variable)
+ * 2. Fix the bug with multiple math sign's by setting up a sign variable and allowing it to be one sign top's
+ */
+
 function display(val) {
   document.getElementById("result").value += val;
 
